@@ -1,0 +1,131 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px) {
+  .heading{
+    font-size: 20px!important;
+  }
+
+  .container{
+    height: 200px;
+  }
+
+  .credit .link-name{
+    font-size: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .container{
+    height: 220px;
+  }
+
+}
+
+html{
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-transform: capitalize;
+}
+
+body{
+  background-color: #16161a;
+  background-image: url(../assetts/img/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.top-background{
+  background-image: url(../assetts/img/wave2.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 200px;
+  opacity: .5;
+}
+
+.credit .link-name{
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #16161a;
+  padding-top: 7px;
+  color: black;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.credit-heading{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 4px;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.heading{
+  font-size: 30px;
+  color: #fffffe;
+}
+
+.num-value{
+  border: none;
+  padding: 40px 150px;
+  background-color: #7f5af0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 7px;
+  color: #fffffe;
+  font-size: 30px;
+}
+
+
+
+.increase{
+  border: none;
+  cursor: pointer;
+  color: #fffffe;
+  background-color: #7f5af0;
+  padding: 5px 30px;
+  border-radius: 20px 10px;
+  font-size: 35px;
+}
+
+
+.decrease{
+  border: none;
+  cursor: pointer;
+  color: #fffffe;
+  background-color: #7f5af0;
+  padding: 5px 30px;
+  border-radius: 20px 10px;
+  font-size: 35px;
+}
+
+.reset{
+  border: none;
+  cursor: pointer;
+  color: #fffffe;
+  background-color: #7f5af0;
+  padding: 5px 10px;
+  border-radius: 7px;
+  margin: 0px 10px 0px 10px;
+}
+
+.decrease:hover, .increase:hover, .reset:hover{
+  transform: translateY(.5px);
+  transition: 100ms;
+  /*box-shadow: 1px 2.5px 3px black;*/
+  box-shadow: inset 2px 5px 9px #5d2deb;
+}
