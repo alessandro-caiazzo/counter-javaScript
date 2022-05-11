@@ -1,4 +1,4 @@
-# Counter-JavaScript
+![banner](JavaScript_Counter.png).<br>
 This is one of my first JavaScript project. 
 It is a simple counter that gave me the chance to learn and use some of the basic tools of JavaScript.
 
