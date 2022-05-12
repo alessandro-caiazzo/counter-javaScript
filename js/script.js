@@ -18,8 +18,4 @@ btns.forEach(function(btn) {
   });
 });
 
-//sheep animation
 
-function sheep(e) {
-  document.querySelector('sheep').src = e
-};
